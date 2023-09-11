@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%;
+
+
+}
+
+body {
+    background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+    
+    font-size: 1.6rem;
+    font-family: "DM Sans", sans-serif;
+
+    display: grid;
+    place-items: center;
+
+    height: 100vh;
+}
+
+main {
+    width: min(50rem, 90%);
+    margin: 0 auto;
+
+    display: grid;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    grid-auto-flow: row;
+    place-content: center;
+    place-items: center;
+
+    border-radius: .6rem;
+    background: #FFF;
+    box-shadow: 0 .2rem .4rem 0 rgba(0, 0, 0, 0.10);
+}
+
+.hide {
+    display: none;
+    visibility: hidden;
+
+    width: 0;
+    height: 0;
+
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+}
+
+.screen1 h1 {
+    color: #34355B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    margin-bottom: 1.6rem;
+}
+
+.screen1 p {
+    color: rgba(52, 53, 91, 0.80);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.screen1 form {
+    margin: 4.8rem auto 0;
+
+    width: max-content;
+
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.screen1 input {
+    width: 10.0rem;
+
+    text-align: center;
+    
+    color: #34355B;
+    font-family: DM Sans;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    padding: 1.6rem;
+    border: none;
+    border-radius: .4rem 0 0 .4rem;
+    background: #DCE2E9;
+}
+
+.screen1 button {
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    border: none;
+    padding: 1.6rem;
+    border-radius: 0 .4rem .4rem 0;
+    background: #7879F1;
+
+    transition: background .3s;
+}
+
+.screen1 button:hover {
+    background: #5757b1;
+}
+
+.screen2 {
+    display: grid;
+    grid-auto-flow: row;
+    place-items: center;
+}
+
+.screen2 h2 {
+    color: #34355B;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    margin-bottom: 3.3rem;
+}
+
+.screen2 button {
+    width: max-content;
+
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    border: none;
+    border-radius: 4px;
+    background: #7879F1;
+
+    padding: 16px;
+
+    transition: background .3s;
+}
+
+.screen2 button:hover {
+    background: #5757b1;
+
+    cursor: pointer;
+}
